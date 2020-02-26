@@ -1,4 +1,5 @@
 quorum*_data
 .idea/
-web/node_module*
+web-app/node_module*
+*.iml
 
