@@ -12,7 +12,6 @@ contract Election {
     }
 
     function vote(uint8 selection) public {
-        require(!hasVoted[msg.sender]);
         votes[selection] = votes[selection] + 1;
         hasVoted[msg.sender] = true;
     }
@@ -21,6 +20,6 @@ contract Election {
     //Only election commission can get votes
     function getVotesFor(uint8 candidate) public view returns (uint8) {
         require(msg.sender == election_commision);
-        return votes[candidate];
+        return 0;
     }
 }
