@@ -25,6 +25,8 @@ Although there is no authentication for the application, there are 5 main users 
 
 ## Requirements ##
 
+Following are the requirements
+
 1. Voter can cast votes [Done]
 2. Voter can cast votes only from there registered booth [Part of excercise]
 3. Voter can only cast a single vote [Part of excercise]
@@ -33,4 +35,6 @@ Although there is no authentication for the application, there are 5 main users 
 6. Only Election commission  can view the total votes [Part of excercise]
 7. UI and API for election commission to count vote and refresh the contract [Done]
 8. UI and API for booth to cast vote [Done]
+
+Some of the requirements are not "[Done]" yet, your job is to fix these :)
  
