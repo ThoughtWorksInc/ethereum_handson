@@ -21,6 +21,3 @@ The application has three pods, these pods are of two types:
 ## USERS ##
 
 Although there is no authentication for the application, there are 5 main users of the application. Two users belong to Booth1 (), two users belong to Booth2 (), and the final election commision user which will count the votes.
-
-
-Feedback Link :https://forms.gle/uXBtCg2tK4EzckARA
